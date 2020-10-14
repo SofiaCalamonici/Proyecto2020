@@ -1,5 +1,7 @@
 # Proyecto2020
-Vincha lectora de ondas cerebrales#include <Brain.h>
+Vincha lectora de ondas cerebrales
+
+#include <Brain.h>
 
 Brain brain(Serial);
 int LED1 = 2;
@@ -33,5 +35,3 @@ if(brain.update()){
 }
   }
 }
-
-
